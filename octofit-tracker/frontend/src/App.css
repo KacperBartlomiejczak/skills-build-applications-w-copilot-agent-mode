@@ -1,0 +1,106 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0f2027 0%, #2c5364 100%) !important;
+  box-shadow: 0 2px 8px rgba(44,83,100,0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #f9fafc !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(44,83,100,0.08);
+  background: #f7fbff;
+}
+.card-title {
+  color: #2c5364;
+  font-weight: 700;
+}
+.card-text {
+  color: #34495e;
+}
+
+table.table {
+  background: #eaf6fb;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+thead.table-dark th {
+  background: #2c5364 !important;
+  color: #ffd700 !important;
+}
+tbody tr:hover {
+  background: #d0e6f6;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  border-radius: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(44,83,100,0.08);
+}
+.btn-primary {
+  background: linear-gradient(90deg, #36d1c4 0%, #1e90ff 100%);
+  border: none;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  border: none;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+  border: none;
+  color: #2c3e50;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+  border: none;
+}
+
+a, .App-link {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ffd700;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #2c5364;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Favicon and logo animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
